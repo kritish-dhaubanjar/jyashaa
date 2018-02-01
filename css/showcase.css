@@ -1,0 +1,64 @@
+#custom-head {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+#custom-head p,h1{
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.custom-button{
+  text-align:center;
+  padding-left: 0px;
+}
+.custom-button li{
+  list-style-type: none;
+  display: inline;
+}
+#custom-card{
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+.card {
+/*  padding-left: 15px;
+  padding-right: 15px;*/
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+.card > img {
+  margin-bottom: .75rem;
+}
+.card-text {
+  font-size: 100%;
+  text-align:center;
+}
+/**/
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+a.darken:hover img {
+    opacity: 0.7;
+}
+/**/
+.container-body{
+  background-color: #d8e5e6;
+}
